@@ -1,0 +1,51 @@
+body,html
+{
+    height: 100%;   
+}
+    
+
+#container, .row
+{
+    display: flex;
+    width:100%;
+}
+
+#container
+{
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height:100%;
+}
+.row
+{
+    justify-content:space-evenly;
+    margin: 15px;
+}
+
+.square
+{
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+}
+
+#blue
+{
+    background-color: blue;
+}
+
+#green
+{
+    background-color: green;
+}
+
+#yellow
+{
+    background-color: yellow;
+}
+
+#red
+{
+    background-color: red;
+}
